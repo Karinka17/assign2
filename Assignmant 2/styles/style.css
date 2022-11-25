@@ -1,0 +1,100 @@
+@import url(./reset.css);
+
+*{
+    /* outline: 1px dotted #333; */
+}
+
+/* default */
+html, body, main, header, section{
+    height: 100%;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    background: #03071e;
+}
+
+nav a{
+    padding: 1em 3em;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #ffffff;
+    transition: all 0.3s ease;
+    background: none;
+}
+
+nav a:hover{
+    background: #fca311;
+}
+
+header{
+    background-image: url(../images/headerBg.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.header{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: #ffffff;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.header h1{
+    font-size: 48px;
+}
+
+.header p{
+    font-size: 26px;
+    letter-spacing: 2px;
+}
+
+section{
+    background: #03071e;
+    color: #fff;
+    padding: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+section h2{
+    font-size: 40px;
+}
+
+section p{
+    line-height: 1.5;
+    font-size: 24px;
+    text-align: left;
+}
+
+section a{
+    padding: 1em 2em;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    background: red;
+    border-radius: 7px;
+    transition: all 0.4s ease;
+}
+
+section a:hover{
+    background: #fca311;
+}
+
+footer p{
+    padding: 1em;
+    text-align: center;
+    color: #fff;
+    background: #343a40;
+}
