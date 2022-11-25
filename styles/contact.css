@@ -1,0 +1,32 @@
+@import url(./reset.css);
+
+*{
+    /* outline: 1px dotted #333; */
+}
+
+/* default */
+html, body, main, header, section{
+    height: 100%;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    background: #03071e;
+}
+
+nav a{
+    padding: 1em 3em;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #ffffff;
+    transition: all 0.3s ease;
+    background: none;
+}
+
+nav a:hover{
+    background: #fca311;
+}
