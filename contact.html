@@ -13,5 +13,77 @@
         <a href="./about.html">About</a>
         <a href="./contact.html">Contact</a>
     </nav>
+</header>
+
+<main>
+    <!-- <section> -->
+    <div class="form-container">
+        <h1>Contact Me</h1>
+        <div class="form">
+                <fieldset>
+                    <div id="userInfo">
+                        <div>
+                            <legend class="form-title">My Information</legend>
+                        </div>
+
+                        <div>
+                            <label for="firstName">First Name:</label><br>
+                            <input type="text" name="firstName" id="firstName" required minlength="2" maxlength="15"
+                                placeholder="Karina"><br>
+                        </div>
+
+                        <div>
+                            <label for="lastName">Last Name:</label><br>
+                            <input type="text" name="lastName" id="lastName" required required minlength="2"
+                                maxlength="15" placeholder="Karanadze"><br>
+                        </div>
+
+                        <div>
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email" placeholder="ROCKYAJ2004@gmail.com" required><br>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <div id="userInquiry">
+                        <div>
+                            <legend class="form-title">Your Inquiry</legend>
+                        </div>
+
+                        <div>
+                            <label for="inquiryType">What is your Inquiry about?</label><br>
+                            <select name="inquiryType" id="inquiryType" required>
+                                <option value="employment">Employment Opportunity</option>
+                                <option value="business">Business Opportunity</option>
+                                <option value="freelance">Freelance Opportunity</option>
+                                <option value="general" selected>General Inquiry</option>
+                            </select><br>
+                        </div>
+
+                        <div>
+                            <label for="message">Your Message:</label><br>
+                            <textarea name="message" id="message" cols="30" rows="10"
+                                placeholder="Type your message here..."></textarea><br>
+                        </div>
+                    </div>
+                </fieldset>
+                <input type="submit" value="Submit" class="submit">
+            </form>
+        </div>
+    </div>
+    <!-- </section> -->
+</main>
+<br>
+
+<!-- Dark / Light Mode -->
+<div class="theme-btn">
+    <i class="fa-solid fa-circle-half-stroke"></i>
+</div>
+
+<script src="./js/index.js"></script>
+</body>
+
+</html>
 </body>
 </html>
